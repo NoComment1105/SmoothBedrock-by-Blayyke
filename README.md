@@ -7,7 +7,7 @@
 [![Github all releases](https://img.shields.io/github/downloads/NoComment1105/SmoothBedrock-by-Blayyke/total.svg?label=Downloads%20From%20GH)](https://GitHub.com/NoComment1105/SmoothBedrock-by-Blayyke/releases/)
 
 
-Elements from the periodic table in Minecraft >=1.16.2
+SmoothBedrock Minecraft >=1.16.2
 
 
 ### What does this Mod do?
