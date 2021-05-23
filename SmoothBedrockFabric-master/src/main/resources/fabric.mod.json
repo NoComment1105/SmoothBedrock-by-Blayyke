@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "smoothbedrock",
+  "name": "Smooth Bedrock By Blayyke (Fabric)",
+  "description": "An Updated fork of Smooth bedrock by Blayyke fabric >=1.16.2",
+  "version": "${version}",
+  "environment": "*",
+  "authors": [
+    "Blayyke (Original Mod)",
+    "NoComment1105 (This Fork)"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.nocomment1105.smoothbedrock.SmoothBedrock"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "minecraft": ">=1.16.2"
+  },
+  "mixins": [
+    "smoothbedrock.mixins.json"
+  ],
+  "contact": {
+    "sources": "https://github.com/NoComment1105/SmoothBedrock-by-Blayyke"
+  },
+  "license": "LGPL-3.0"
+}
