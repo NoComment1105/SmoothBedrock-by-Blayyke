@@ -18,7 +18,7 @@ This mod changes the bedrock layers in the Overworld and Nether to generate in a
 | Author   | Role   | Links   |
 |:---------|:-------|:--------|
 | Blayyke | Original Mod | [Original Repo](https://github.com/Blayyke/SmoothBedrockFabric)
-| NoComment1105 | Mod Lead | [Contributions](https://github.com/NoComment1105/periodic-mod-fabric/commits?author=NoComment1105) |
+| NoComment1105 | Maintainer | [Contributions](https://github.com/NoComment1105/periodic-mod-fabric/commits?author=NoComment1105) |
 
 ### Versioning
 This mod is >=1.16.2 at it's oldest. I am **NOT** going to back-port this mod to any older versions
