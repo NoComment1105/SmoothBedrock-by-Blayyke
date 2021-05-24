@@ -1,4 +1,4 @@
-# Periodic mod Fabric
+# SmoothBedrock by Blayyke
 ![Github license](https://img.shields.io/github/license/NoComment1105/SmoothBedrock-by-Blayyke.svg?label=License)
 ![Github Issues](https://img.shields.io/github/issues/NoComment1105/SmoothBedrock-by-Blayyke.svg?label=Issues)
 ![Latest Release](https://img.shields.io/github/v/release/NoComment1105/SmoothBedrock-by-Blayyke?label=Latest%20Release)
