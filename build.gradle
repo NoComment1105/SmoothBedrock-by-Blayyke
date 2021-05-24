@@ -98,7 +98,7 @@ def CURSEFORGE_TOKEN = System.getenv("CURSEFORGE_TOKEN")
 curseforge {
     apiKey CURSEFORGE_TOKEN == null ? "" : CURSEFORGE_TOKEN
     project {
-        id = 485752
+        id = '485752'
         releaseType = 'release'
         addGameVersion '1.16.2'
         addGameVersion '1.16.3'
