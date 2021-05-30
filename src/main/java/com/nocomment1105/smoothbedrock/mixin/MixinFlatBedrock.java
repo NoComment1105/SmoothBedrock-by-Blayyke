@@ -32,7 +32,6 @@ public abstract class MixinFlatBedrock extends ChunkGenerator {
     @Shadow
     @Final
     private int worldHeight; // worldHeight
-    @Shadow
     @Final
     protected ChunkRandom random;
     ThreadLocal<Identifier> dimId = new ThreadLocal<net.minecraft.util.Identifier>();

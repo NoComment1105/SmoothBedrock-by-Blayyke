@@ -15,8 +15,7 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.9.0",
-    "minecraft": ">=1.16.2"
+    "fabricloader": ">=0.11.3"
   },
   "mixins": [
     "smoothbedrock.mixins.json"

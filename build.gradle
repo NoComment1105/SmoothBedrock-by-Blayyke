@@ -85,12 +85,10 @@ import com.modrinth.minotaur.TaskModrinthUpload
 task publishModrinth (type: TaskModrinthUpload) {
     token = System.getenv("MODRINTH_TOKEN")
     projectId = '7MnvHj3n'
-    versionNumber = "SmoothBedrock-by-Blayyke $project.version"
+    versionNumber = "[1.17] SmoothBedrock-by-Blayyke $project.version"
+    releaseType = 'beta'
     uploadFile = remapJar
-    addGameVersion('1.16.2')
-    addGameVersion('1.16.3')
-    addGameVersion('1.16.4')
-    addGameVersion('1.16.5')
+    addGameVersion('1.17')
     addLoader('fabric')
 }
 def CURSEFORGE_TOKEN = System.getenv("CURSEFORGE_TOKEN")
@@ -99,15 +97,11 @@ curseforge {
     apiKey CURSEFORGE_TOKEN == null ? "" : CURSEFORGE_TOKEN
     project {
         id = '485752'
-        releaseType = 'release'
-        addGameVersion '1.16.2'
-        addGameVersion '1.16.3'
-        addGameVersion '1.16.4'
-        addGameVersion '1.16.5'
-        addGameVersion 'Fabric'
+        releaseType = 'beta'
+        addGameVersion '1.17'
 
         mainArtifact(file("${project.buildDir}/libs/${archivesBaseName}-${version}.jar")) {
-            displayName = "SmoothBedrock-$project.version"
+            displayName = "[1.17] SmoothBedrock-$project.version"
         }
         afterEvaluate {
             uploadTask.dependsOn(remapJar)
