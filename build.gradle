@@ -86,8 +86,8 @@ import com.modrinth.minotaur.TaskModrinthUpload
 task publishModrinth (type: TaskModrinthUpload) {
     token = System.getenv("MODRINTH_TOKEN")
     projectId = '7MnvHj3n'
-    versionNumber = "[1.17] SmoothBedrock-by-Blayyke $project.version"
-    releaseType = 'beta'
+    versionNumber = "[1.17] SmoothBedrock-by-Blayyke v$project.version"
+    releaseType = 'release'
     uploadFile = remapJar
     addGameVersion('1.17')
     addLoader('fabric')
@@ -98,8 +98,9 @@ curseforge {
     apiKey CURSEFORGE_TOKEN == null ? "" : CURSEFORGE_TOKEN
     project {
         id = '485752'
-        releaseType = 'beta'
+        releaseType = 'release'
         addGameVersion '1.17'
+        addGameVersion 'fabric'
 
         mainArtifact(file("${project.buildDir}/libs/${archivesBaseName}-${version}.jar")) {
             displayName = "[1.17] SmoothBedrock-$project.version"
