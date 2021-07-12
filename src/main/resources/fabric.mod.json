@@ -11,7 +11,7 @@
   ],
   "entrypoints": {
     "main": [
-      "com.nocomment1105.smoothbedrock.SmoothBedrock"
+      "me.nocomment1105.smoothbedrock.SmoothBedrock"
     ]
   },
   "depends": {
@@ -23,7 +23,7 @@
     "smoothbedrock.mixins.json"
   ],
   "contact": {
-    "homepage": "https://nocomment-mc.webflow.io/",
+    "homepage": "https://nocomment1105.github.io/",
     "sources": "https://github.com/NoComment1105/SmoothBedrock-by-Blayyke"
   },
   "license": "LGPL-3.0",
