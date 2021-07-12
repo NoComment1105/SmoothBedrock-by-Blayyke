@@ -90,6 +90,7 @@ task publishModrinth (type: TaskModrinthUpload) {
     releaseType = 'release'
     uploadFile = remapJar
     addGameVersion('1.17')
+    addGameVersion('1.17.1')
     addLoader('fabric')
 }
 def CURSEFORGE_TOKEN = System.getenv("CURSEFORGE_TOKEN")
@@ -100,6 +101,7 @@ curseforge {
         id = '485752'
         releaseType = 'release'
         addGameVersion '1.17'
+        addGameVersion '1.17.1'
         addGameVersion 'fabric'
 
         mainArtifact(file("${project.buildDir}/libs/${archivesBaseName}-${version}.jar")) {

@@ -3,7 +3,7 @@
   "package": "com.nocomment1105.smoothbedrock.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "MixinFlatBedrock"
+    "me.nocomment1105.smoothbedrock.mixin.MixinFlatBedrock"
   ],
   "injectors": {
     "defaultRequire": 1

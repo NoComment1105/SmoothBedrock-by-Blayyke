@@ -1,10 +1,10 @@
-package com.nocomment1105.modconfig;
+package me.nocomment1105.modconfig;
 
 import blue.endless.jankson.Jankson;
 import blue.endless.jankson.JsonObject;
 import blue.endless.jankson.api.SyntaxError;
-import com.nocomment1105.smoothbedrock.Config;
-import com.nocomment1105.smoothbedrock.SmoothBedrock;
+import me.nocomment1105.smoothbedrock.Config;
+import me.nocomment1105.smoothbedrock.SmoothBedrock;
 
 import java.io.File;
 import java.io.FileOutputStream;
