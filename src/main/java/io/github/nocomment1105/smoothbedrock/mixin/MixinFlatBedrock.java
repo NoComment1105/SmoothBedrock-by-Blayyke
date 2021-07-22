@@ -1,6 +1,6 @@
-package me.nocomment1105.smoothbedrock.mixin;
+package io.github.nocomment1105.smoothbedrock.mixin;
 
-import me.nocomment1105.smoothbedrock.SmoothBedrock;
+import io.github.nocomment1105.smoothbedrock.SmoothBedrock;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;

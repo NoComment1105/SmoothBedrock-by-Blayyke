@@ -1,4 +1,4 @@
-package me.nocomment1105.smoothbedrock;
+package io.github.nocomment1105.smoothbedrock;
 
 import blue.endless.jankson.Comment;
 import net.minecraft.world.dimension.DimensionType;

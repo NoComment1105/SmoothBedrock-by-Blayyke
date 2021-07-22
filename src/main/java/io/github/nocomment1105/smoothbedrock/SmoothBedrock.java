@@ -1,6 +1,6 @@
-package me.nocomment1105.smoothbedrock;
+package io.github.nocomment1105.smoothbedrock;
 
-import me.nocomment1105.modconfig.ModConfig;
+import io.github.nocomment1105.modconfig.ModConfig;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.util.Identifier;

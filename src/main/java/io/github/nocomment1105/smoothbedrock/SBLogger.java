@@ -1,4 +1,4 @@
-package me.nocomment1105.smoothbedrock;
+package io.github.nocomment1105.smoothbedrock;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
