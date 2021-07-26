@@ -6,7 +6,7 @@
 #### Download Counts
 [![CurseForge downloads](http://cf.way2muchnoise.eu/full_485752_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/smoothbedrock-by-blayyke)
 [![Github all releases](https://img.shields.io/github/downloads/NoComment1105/SmoothBedrock-by-Blayyke/total.svg?label=Downloads%20From%20GH)](https://GitHub.com/NoComment1105/SmoothBedrock-by-Blayyke/releases/)
-
+[![Modrinth Downloads](https://img.shields.io/badge/dynamic/json?color=blue&label=Modrinth&query=downloads&url=https%3A%2F%2Fapi.modrinth.com%2Fapi%2Fv1%2Fmod%2F7MnvHj3n)](https://www.modrinth.com/mod/smoothbedrock-by-blayyke)
 
 SmoothBedrock Minecraft >=1.16.2
 
